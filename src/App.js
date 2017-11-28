@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Title text="That 90's Website" />
         <Construction />
-        <Title text="Welcome to my Homepage!!!!!" />
+        <Title text="Welcome to Ali's Homepage!!!!!" />
         <Counter count="000000" />
         <Guestbook />
       </div>
