@@ -32,6 +32,11 @@ class GuestbookForm extends Component {
           <input type="text" />
         </label>
         <br />
+        <label>
+          Message:
+          <textarea rows={4} />
+        </label>
+        <br />
         <input type="submit" value="Submit" />
       </form>
     )
