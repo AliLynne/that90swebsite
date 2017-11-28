@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import GuestbookForm from './GuestbookForm'
 import GuestbookPost from './GuestbookPost'
-import Title from './Title'
 
 class Guestbook extends Component{
   render() {
     return(
       <div>
-        <img src={require('./guestbook.gif')} alt="Sign the Guestbook"/>
+        <img src={require('../img/guestbook.gif')} alt="Sign the Guestbook"/>
         <GuestbookForm />
+        <GuestbookPost />
         <GuestbookPost />
       </div>
     )

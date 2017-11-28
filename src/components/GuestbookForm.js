@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './GuestbookForm.css'
+import '../css/GuestbookForm.css'
 
 class GuestbookForm extends Component {
   constructor(props) {

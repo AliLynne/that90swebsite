@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './GuestbookPost.css'
+import '../css/GuestbookPost.css'
 
 class GuestbookPost extends Component {
   render() {

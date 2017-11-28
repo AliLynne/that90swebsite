@@ -1,19 +1,18 @@
-import React, { Component } from 'react';
-import Title from './Title'
-import Counter from './Counter'
-import Construction from './Construction'
-import Guestbook from './Guestbook'
+import React, { Component } from 'react'
+import Header from './components/Header'
+import Counter from './components/Counter'
+import Guestbook from './components/Guestbook'
+import AboutMe from './components/AboutMe'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Title text="That 90's Website" />
-        <Construction />
-        <Title text="Welcome to Ali's Homepage!!!!!" />
-        <Counter count="000000" />
+        <Header />
+        <AboutMe />
         <Guestbook />
+        <Counter count="938759" />
       </div>
     );
   }

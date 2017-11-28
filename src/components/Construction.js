@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import './Construction.css'
+import '../css/Construction.css'
 
 class Construction extends Component {
   render() {
     return (
 
-      <img src={require('./construction.gif')} alt="under construction"/>
+      <img src={require('../img/construction.gif')} alt="under construction"/>
     )
   }
 }
